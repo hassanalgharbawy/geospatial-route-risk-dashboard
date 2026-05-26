@@ -1,0 +1,7 @@
+route_id,total_distance_km,ice_risk_score,travel_difficulty,ship_performance_index,estimated_days,avg_speed_knots,fuel_efficiency_index,weather_exposure,emissions_tonnes,last_updated
+nwp-lancaster-amundsen,3580,82,88,61,12.8,6.3,54,76,2850,2026-05-01
+hudson-churchill-baffin,1910,67,72,68,6.4,8.1,66,64,1375,2026-05-01
+labrador-nunavut-resupply,1645,58,63,73,5.2,8.7,72,57,1040,2026-05-01
+beaufort-mackenzie-support,1210,74,79,65,4.8,7.2,60,69,860,2026-05-01
+greenland-baffin-corridor,1425,71,75,67,5.7,7.5,62,73,930,2026-05-01
+stlawrence-atlantic-transfer,1120,26,32,88,3.1,11.4,84,41,650,2026-05-01

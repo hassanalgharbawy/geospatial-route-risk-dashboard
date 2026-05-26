@@ -1,0 +1,150 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "nwp-lancaster-amundsen",
+      "properties": {
+        "id": "nwp-lancaster-amundsen",
+        "name": "Northwest Passage - Lancaster to Amundsen",
+        "origin": "Baffin Bay",
+        "destination": "Beaufort Sea",
+        "corridor": "Canadian Arctic Archipelago",
+        "vessel_class": "Polar Class 4 cargo vessel",
+        "season": "Late August convoy window",
+        "description": "A mock high-latitude transit through Lancaster Sound, Peel Sound, and the Amundsen Gulf with elevated multi-year ice exposure."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-59.7, 64.3],
+          [-67.2, 68.4],
+          [-78.2, 73.5],
+          [-94.4, 74.0],
+          [-111.6, 71.2],
+          [-124.8, 70.1]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hudson-churchill-baffin",
+      "properties": {
+        "id": "hudson-churchill-baffin",
+        "name": "Churchill Resupply - Hudson Strait",
+        "origin": "Port of Churchill",
+        "destination": "Baffin Bay",
+        "corridor": "Hudson Bay and Hudson Strait",
+        "vessel_class": "Ice-strengthened bulk carrier",
+        "season": "September sealift",
+        "description": "A mock grain-and-resupply corridor from Manitoba through Hudson Strait where shoulder-season ice and fog affect voyage planning."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-94.2, 58.8],
+          [-87.4, 60.6],
+          [-79.7, 62.3],
+          [-70.8, 62.4],
+          [-61.4, 64.5]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "labrador-nunavut-resupply",
+      "properties": {
+        "id": "labrador-nunavut-resupply",
+        "name": "Labrador Sea - Nunavut Resupply",
+        "origin": "St. John's",
+        "destination": "Iqaluit",
+        "corridor": "Labrador Sea and Frobisher Bay",
+        "vessel_class": "Arctic multipurpose cargo vessel",
+        "season": "Summer community resupply",
+        "description": "A mock eastern Arctic resupply route with moderate bergy-water exposure and port-approach constraints near Frobisher Bay."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-52.7, 47.6],
+          [-56.7, 53.3],
+          [-61.9, 58.4],
+          [-66.8, 62.2],
+          [-68.5, 63.7]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "beaufort-mackenzie-support",
+      "properties": {
+        "id": "beaufort-mackenzie-support",
+        "name": "Beaufort Sea - Mackenzie Support",
+        "origin": "Prudhoe Bay",
+        "destination": "Tuktoyaktuk",
+        "corridor": "Southern Beaufort Sea",
+        "vessel_class": "Offshore support vessel",
+        "season": "Early September operations",
+        "description": "A mock nearshore support route exposed to drifting pack ice, shallow-water routing constraints, and rapid weather shifts."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-148.7, 70.2],
+          [-141.3, 70.5],
+          [-134.8, 70.1],
+          [-128.4, 69.6],
+          [-132.9, 68.9]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "greenland-baffin-corridor",
+      "properties": {
+        "id": "greenland-baffin-corridor",
+        "name": "Greenland - Baffin Science Corridor",
+        "origin": "Nuuk",
+        "destination": "Pond Inlet",
+        "corridor": "Davis Strait and Baffin Bay",
+        "vessel_class": "Research vessel",
+        "season": "July field campaign",
+        "description": "A mock science-logistics route where sea state, iceberg density, and protected-area buffers drive risk scoring."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-51.7, 64.2],
+          [-56.5, 67.4],
+          [-62.6, 70.0],
+          [-68.7, 72.7],
+          [-77.9, 72.7]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "stlawrence-atlantic-transfer",
+      "properties": {
+        "id": "stlawrence-atlantic-transfer",
+        "name": "St. Lawrence - North Atlantic Transfer",
+        "origin": "Quebec City",
+        "destination": "St. John's",
+        "corridor": "Gulf of St. Lawrence and North Atlantic",
+        "vessel_class": "Container feeder",
+        "season": "Open-water baseline",
+        "description": "A lower-risk comparator route used to show how the dashboard separates routine marine exposure from Arctic operating risk."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-71.2, 46.8],
+          [-66.8, 48.7],
+          [-61.5, 49.6],
+          [-56.2, 51.4],
+          [-52.7, 47.6]
+        ]
+      }
+    }
+  ]
+}
