@@ -156,11 +156,6 @@ Invoke-RestMethod http://127.0.0.1:8000/metrics/nwp-lancaster-amundsen
 
 ![Dashboard map view](docs/screenshots/dashboard-map.png)
 
-Additional capture paths:
-
-- `docs/screenshots/route-risk-charts.png`
-- `docs/screenshots/mobile-layout.png`
-
 ## Future Extensions
 
 - Convert the local CSV route metrics into GeoParquet partitioned by region, season, and route class.
